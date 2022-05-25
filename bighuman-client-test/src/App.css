@@ -1,38 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+
+.Roboto-light{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
 .App {
-  text-align: center;
+  padding-top: 10%;
+  /* background-color: #eae0c8; */
+    height: '100vh';
+    padding-bottom: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    /* background-color: #eae0c8; */
+    margin: 0px;
+    padding: 0px;
+    height: '100vh';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.card {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* background-color: cadetblue; */
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+  /* display:flex;
+  flex-wrap: wrap; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-title {
+  padding-top: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #2F4F4F;
+  /* border-bottom: 1px solid black; */
+}
+
+.card-body {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 2px;
+    color: #2F4F4F;
+}
+
+.header {
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 28px;
+    padding-bottom:20px;
+    color: #2F4F4F;
+}
+
+.nav {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav .nav-link a {
+  font-size: 14px;
+      color: #2F4F4F;
+}
+
+a {
+  font-size: 14px;
+  color: #2F4F4F;
+}
+
+a:hover {
+  font-size: 14px;
+  color: #2F4F4F;
 }
