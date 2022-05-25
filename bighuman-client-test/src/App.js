@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
 import CountryCard from "./CountryCard";
+import ReviewForm from "./ReviewForm";
+// import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   const [error, setError] = useState(null);
@@ -59,7 +61,8 @@ function App() {
                 </Col>
               ))}
             </Row>
-          </Container>3
+            <ReviewForm />
+          </Container>
         </div>
 
       </>

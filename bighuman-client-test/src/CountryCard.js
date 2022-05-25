@@ -1,6 +1,5 @@
 import React from "react";
 import { CardGroup, Card } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.css";
 /* eslint-disable react/prop-types */
 
 const CountryCard = ({ item }) => {
